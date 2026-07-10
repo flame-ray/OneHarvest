@@ -1,5 +1,5 @@
 name: OneHarvest
-version: 1.2.0-SNAPSHOT
+version: 1.2.0
 main: me.oneharvest.OneHarvest
 api-version: 1.21
 authors:

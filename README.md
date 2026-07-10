@@ -6,7 +6,7 @@ OneHarvest 为生存服务器提供可控制的连锁挖矿、连锁砍树和范
 
 ## 当前开发版本
 
-`main` 分支当前为 **1.2.0-SNAPSHOT**，已通过 Java 21 编译与规则单元测试。稳定版 Release 会在 Paper / Spigot 实服回归验证后发布。
+当前版本为 **1.2.0**，已通过 Java 21 编译与规则单元测试。建议在安装到正式服务器前先完成 Paper / Spigot 实服回归验证。
 
 ## 功能
 
@@ -32,7 +32,7 @@ OneHarvest 为生存服务器提供可控制的连锁挖矿、连锁砍树和范
 mvn package
 ```
 
-将 `target/OneHarvest-1.2.0-SNAPSHOT.jar` 放入 `plugins` 文件夹，并使用 Paper 或 Spigot 1.21.x 启动服务器。
+将 `target/OneHarvest-1.2.0.jar` 放入 `plugins` 文件夹，并使用 Paper 或 Spigot 1.21.x 启动服务器。
 
 ## 指令
 
