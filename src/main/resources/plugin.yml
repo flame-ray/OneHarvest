@@ -1,10 +1,10 @@
 name: OneHarvest
-version: 1.1.0
+version: 1.2.0-SNAPSHOT
 main: me.oneharvest.OneHarvest
 api-version: 1.21
 authors:
   - FlameRay
-description: A plugin for chain mining, tree felling, and area mining.
+description: 连锁挖矿、连锁砍树与范围挖掘插件。
 commands:
   oh:
     description: Main command for OneHarvest
@@ -20,3 +20,10 @@ permissions:
   oneharvest.reload:
     description: Allows reloading OneHarvest configuration
     default: op
+  oneharvest.*:
+    description: Grants every OneHarvest permission
+    default: op
+    children:
+      oneharvest.use: true
+      oneharvest.admin: true
+      oneharvest.reload: true

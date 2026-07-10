@@ -1,0 +1,12 @@
+# OneHarvest 的全局设置。修改后使用 /oh reload 生效。
+enabled: true
+
+# 一次自动采集最多额外破坏的方块数量。较大的数值可能影响服务器性能。
+max-chain-break: 10000
+
+vein-mining: true
+tree-felling: true
+area-mining: true
+
+# 0 = 1x1，1 = 3x3，2 = 5x5，3 = 7x7。
+default-range: 1
